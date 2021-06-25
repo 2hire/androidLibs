@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.facebook.flipper</groupId>
+  <artifactId>flipper-network-plugin</artifactId>
+  <version>0.37.0</version>
+  <packaging>aar</packaging>
+  <name>Flipper Network Plugin</name>
+  <description>Network/OkHttp plugin for Flipper</description>
+  <url>https://github.com/facebook/flipper</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/facebook/flipper/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>facebook</id>
+      <name>facebook</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/facebook/flipper.git</connection>
+    <developerConnection>scm:git:git@github.com:facebook/flipper.git</developerConnection>
+    <url>https://github.com/facebook/flipper.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.facebook.flipper</groupId>
+      <artifactId>flipper</artifactId>
+      <version>0.37.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.14.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
