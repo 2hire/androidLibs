@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.adyen.cse</groupId>
+  <artifactId>adyen-cse</artifactId>
+  <name>Adyen CSE</name>
+  <description>Adyen CSE for Android</description>
+  <version>1.0.3</version>
+  <packaging>aar</packaging>
+  <url>https://github.com/Adyen/adyen-cse-android</url>
+  <developers>
+    <developer>
+      <organization>Adyen N.V.</organization>
+      <organizationUrl>https://www.adyen.com/</organizationUrl>
+    </developer>
+  </developers>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:git:git://github.com/adyen-cse-android.git</connection>
+    <developerConnection>scm:git:git://github.com/Adyen/adyen-cse-android.git</developerConnection>
+    <url>https://github.com/Adyen/adyen-cse-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
