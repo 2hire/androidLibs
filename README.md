@@ -1,2 +1,2 @@
 # Android Libs
-Collection of customized Android libraries
+Collection Android libraries
